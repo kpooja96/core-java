@@ -145,6 +145,16 @@ public class BankAccountDaoImpl implements BankAccountDao
 		return account;
 			
 	}
+	
+	public boolean updateBankAccount(long accountId,String AccountHolderName,String accountType) {
+		String query="Update bankaccount set customer_name ?,account_type =?,where account_id =?";
+		BankAccount account = new BankAccount();
+		try(Connection connection = DbUtil.getConnection();
+				PreparedStatement statement = connection.prepareStatement(query);
+				{
+					preparedstatement.setString()
+				}
+	}
 
 	@Override
 	public double getbalance(long accountId) {
