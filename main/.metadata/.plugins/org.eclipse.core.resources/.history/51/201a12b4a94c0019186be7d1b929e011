@@ -1,0 +1,8 @@
+package com.capgemini.files.client;
+
+public class SerializationDemo {
+	public static void main(String[] args) {
+		
+	}
+
+}

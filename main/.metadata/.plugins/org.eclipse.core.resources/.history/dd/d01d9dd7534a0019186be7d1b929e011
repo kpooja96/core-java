@@ -1,0 +1,15 @@
+package com.capgemini.car.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import com.capgemini.car.model.Car;
+
+public class CarTest {
+
+	private Car c1;
+	private Car c2;
+	private car c3;
+
+}

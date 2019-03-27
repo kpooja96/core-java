@@ -1,0 +1,33 @@
+package com.capgemini.files.model;
+
+import java.io.File;
+
+public class FileExist1 {
+	public static void main(String[] args) {
+		
+	
+	
+	File file = new File("C:\\PoojaK\\js-assignments\\js.txt");
+	
+  System.out.println(file.exists());
+  System.out.println("file found");
+}
+
+private boolean file;
+
+public Object checkExists() {
+	if(file) {
+		
+		return true;
+	}
+	
+	else
+		return false;
+}
+
+public Object checkFileExist() {
+	// TODO Auto-generated method stub
+	return null;
+}
+
+}

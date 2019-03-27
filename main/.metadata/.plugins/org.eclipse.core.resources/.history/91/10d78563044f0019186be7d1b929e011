@@ -1,0 +1,21 @@
+package com.capgemini.files.test;
+
+import static org.junit.Assert.*;
+
+import java.io.File;
+import java.util.List;
+
+import org.junit.Test;
+
+import com.capgemini.files.model.FileExist1;
+import com.capgemini.files.model.Grep;
+
+public class GrepTest {
+
+	@Test
+	public void whenGrepWithSimpleString_thenCorrect() {
+		
+		Grep grep = new Grep();
+	    
+	}
+}

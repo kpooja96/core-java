@@ -1,0 +1,14 @@
+package com.capgemini.cellphone.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class CellPhoneTest {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}

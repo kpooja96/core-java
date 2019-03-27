@@ -1,0 +1,56 @@
+
+package com.capgemini.tax.model;
+
+public class TaxCalculator {
+
+	private String empName;
+	private String nationality;
+	private double empSal;
+	
+	
+	public TaxCalculator() {
+		super();
+		
+	}
+
+
+	public TaxCalculator(String empName, String nationality, double empSal) {
+		super();
+		this.empName = empName;
+		this.nationality = nationality;
+		this.empSal = empSal;
+	}
+
+
+	public String getEmpName() {
+		return empName;
+	}
+
+
+	public void setEmpName(String empName) {
+		this.empName = empName;
+	}
+
+
+	public String getNationality() {
+		return nationality;
+	}
+
+
+	public void setNationality(String nationality) {
+		this.nationality = nationality;
+	}
+
+
+	public double getEmpSal() {
+		return empSal;
+	}
+
+
+	public void setEmpSal(double empSal) {
+		this.empSal = empSal;
+	}
+	
+	
+	
+}

@@ -1,0 +1,23 @@
+package com.capgemini.school.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.BeforeClass;
+import org.junit.Test;
+
+import com.capgemini.school.model.School;
+
+public class SchoolTest {
+
+	private static School JSPM;
+	private static School hutchings;
+	private static School mountst;
+
+	@BeforeClass
+	public static void setUp() {
+
+		JSPM = new School("JSPM","Wakad","Pune",2);
+		hutchings = new School("hutchings","Airoli","Mumbai",1);
+		mountst = new School("mountst","Kothrud","Pune",1)
+	}
+}

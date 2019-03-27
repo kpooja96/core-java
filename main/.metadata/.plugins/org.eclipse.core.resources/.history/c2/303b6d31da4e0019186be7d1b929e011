@@ -1,0 +1,22 @@
+package com.capgemini.files.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class WordcntTest {
+	@Test
+	public void testCount_e() {
+	    assertEqual("There are this many e's in the String.", count_e("Isabelle"), 2);
+	}
+
+	private void assertEqual(String string, Object count_e, int i) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	private Object count_e(String string) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+}

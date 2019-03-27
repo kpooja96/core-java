@@ -1,0 +1,10 @@
+package com.capgemini.file_handle.model;
+
+public class FileHandleDemo {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

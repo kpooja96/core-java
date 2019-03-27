@@ -1,0 +1,93 @@
+package com.capgemini.demo.test;
+
+import static org.junit.Assert.*;
+import static org.mockito.Mockito.doThrow;
+import static org.mockito.Mockito.when;
+
+import org.junit.Before;
+import org.junit.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.mockito.MockitoAnnotations;
+
+import com.capgemini.demo.MathApplication;
+import com.capgemini.demo.service.CalculatorService;
+
+public class MathApplicationTest {
+
+	@Mock
+	private CalculatorService service;
+
+	@InjectMocks
+	MathApplication application = new MathApplication(service);
+
+	@Before
+	public void setUp() {
+		MockitoAnnotations.initMocks(this);
+	}
+
+	@Test
+	public void testPreformAdditionWithPositiveIntegers() {
+		when(service.addition(6, 4)).thenReturn(10);
+		assertEquals(10, application.performAddition(6, 4));
+	}
+	
+	@Test
+	public void testPreformSubtractionWithPositiveIntegers() {
+		when(service.addition(6, 4)).thenReturn(2);
+		assertEquals(2, application.performAddition(6, 4));
+	}
+
+
+	
+	@Test
+	public void testPreformMultiplicationWithPositiveIntegers() {
+		when(service.multiplication(6, 4)).thenReturn(24);
+		assertEquals(24, application.performMultiplication(6, 4));
+	}
+	
+	@Test
+	public void testFindFactorialWithPositiveIntegers() {
+		when(service.factorial(5)).thenReturn(120L);
+		assertEquals(120, application.findFactorial(5));
+	}
+
+	@Test
+	public void testPreformDivisionWithPositiveIntegers() {
+		when(service.division(8, 4)).thenReturn(2);
+		assertEquals(2, application.performMultiplication(8, 4));
+	}
+	
+	@Test(expected = ArithmeticException.class)
+	public void testWithDivisionByZero() {
+		doThrow(new ArithmeticException("/ by zero")).when(service).division(10, 0);
+		application.performDivision(10, 0);
+	}
+
+	
+	@Test
+	public void testPreformAdditionWithNegativeIntegers() {
+		when(service.addition(-6, -4)).thenReturn(10);
+		assertEquals(10, application.performAddition(-6, -4));
+	}
+
+	
+	@Test
+	public void testPreformSubtractionWithNegativeIntegers() {
+		when(service.addition(-6, 4)).thenReturn(-2);
+		assertEquals(-2, application.performAddition(-6, 4));
+	}
+
+	
+	@Test
+	public void testPreformMultiplicationWithNegativeIntegers() {
+		when(service.multiplication(-6, 4)).thenReturn(24);
+		assertEquals(-24, application.performMultiplication(-6, 4));
+	}
+	
+	@Test
+	public void testPreformDivisionWithNegativeIntegers() {
+		when(service.division(8, -4)).thenReturn(-2);
+		assertEquals(-2, application.performMultiplication(8, -4));
+	}
+}

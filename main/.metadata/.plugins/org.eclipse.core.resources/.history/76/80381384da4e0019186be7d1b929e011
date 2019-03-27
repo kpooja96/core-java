@@ -1,0 +1,25 @@
+package com.capgemini.files.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import com.capgemini.files.model.FileExist1;
+
+public class WordcntTest {
+	@Test
+	public void testCount_e() {
+	    String input = "Election";
+	    int expected = 2;
+	    int actual = count_e(input);
+	    assertEqual("There are many e's in the String.", expected, actual);
+	}
+
+
+	@Test
+	public void testforFileExist() {
+
+		FileExist1 fileExist = new FileExist1();
+		assertEquals(null, fileExist.checkFileExist());
+	}
+}

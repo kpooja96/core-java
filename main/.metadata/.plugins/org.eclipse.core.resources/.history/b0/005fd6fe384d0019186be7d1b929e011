@@ -1,0 +1,19 @@
+package com.capgemini.files.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import com.capgemini.files.model.LineCourt1;
+
+public class LineCourttest {
+
+	@Test
+	public void testLineCourt() {
+		
+		LineCourt1 linecourt1  = new LineCourt1();
+		assertEquals(35, linecourt1.getline()));
+		
+	}
+
+}

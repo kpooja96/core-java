@@ -1,0 +1,23 @@
+package com.capgemini.files.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class WordcntTest {
+	@Test
+	public void testCount_e() {
+	    String input = "Isabelle";
+	    int expected = 2;
+	    int actual = count_e(input);
+	    assertEqual("There are this many e's in the String.", expected, actual);
+	}
+
+	private int count_e(String input) {
+		
+		return 0;
+	}
+
+	private void assertEqual(String string, int expected, int actual) {
+		}
+}

@@ -1,0 +1,19 @@
+package com.capgemini.demo.test;
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+import org.mockito.Mock;
+
+import com.capgemini.demo.service.CalculatorService;
+
+public class MathApplicationTest {
+
+	
+	@Mock
+	private CalculatorService service;
+	
+	
+	
+	
+	
+}

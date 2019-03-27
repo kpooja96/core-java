@@ -1,0 +1,11 @@
+package com.capgemini.bankapp.service;
+
+import com.capgemini.bankapp.exception.LowBalanceException;
+
+public interface BankAccountService {
+	
+	public double checkBalance(long accountId);
+	public double withdraw(long accountId,double balance) throws LowBalanceException;
+	public double deposit(long accountId,double balance);
+
+}

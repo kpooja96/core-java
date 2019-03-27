@@ -1,0 +1,10 @@
+package com.capgemini.television.model;
+
+public class Television {
+	
+	private String company;
+	private String teletype;
+	private boolean enabled_3D;
+	private double price;
+
+}

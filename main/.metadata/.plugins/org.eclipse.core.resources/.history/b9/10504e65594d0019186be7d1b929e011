@@ -1,0 +1,13 @@
+package com.capgemini.bankapp.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import com.capgemini.bankapp.model.CurrentEx;
+
+public class CurrentExTest {
+
+	private CurrentEx account;
+
+}

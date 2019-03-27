@@ -1,0 +1,29 @@
+package com.capgemini.tax.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+
+import com.capgemini.tax.model.TaxCalculator;
+
+public class TaxCalculatorTest {
+	
+	
+	@Before
+	public void setUp() {
+		
+	}
+	
+	
+
+	@Test(expected =TaxcalciException.class)
+	public void throws_TaxcalciExceptionException() throws InvalidDayException,InvalidMonthException {
+		
+		TaxCalculator tax=new TaxCalculator();
+		
+	}
+	
+
+}

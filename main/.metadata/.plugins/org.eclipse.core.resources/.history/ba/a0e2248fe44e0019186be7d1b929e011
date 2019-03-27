@@ -1,0 +1,9 @@
+package com.capgemini.bankapp.util;
+
+public class DbUtil {
+	
+	private static final String DBUTIL;
+	private static final String USERNAME;
+	private static final String PASSWORD;
+
+}

@@ -1,0 +1,8 @@
+package com.capgemini.school.model;
+
+public class School {
+	
+	private String schoolName;
+	
+
+}

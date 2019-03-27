@@ -1,0 +1,14 @@
+package com.capgemini.lambda.model;
+
+import java.util.TreeSet;
+
+public class EmployeeClient {
+	public static void main(String[] args) {
+		
+		TreeSet<Employee> employees = new TreeSet<>();
+		employees.add(new Employee(101,"Anna","HR",32000));
+		
+	}
+	
+
+}

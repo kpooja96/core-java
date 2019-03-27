@@ -1,0 +1,30 @@
+package com.capgemini.school.model;
+
+public class School {
+	
+	private String name;
+	private String city;
+	private String cityDistrict;
+	private int greatSchoolRanking;
+	
+	
+	public School() {
+		super();
+		
+	}
+
+
+	public School(String name, String city, String cityDistrict, int greatSchoolRanking) {
+		super();
+		this.name = name;
+		this.city = city;
+		this.cityDistrict = cityDistrict;
+		this.greatSchoolRanking = greatSchoolRanking;
+	}
+	
+	
+	
+	
+	
+
+}

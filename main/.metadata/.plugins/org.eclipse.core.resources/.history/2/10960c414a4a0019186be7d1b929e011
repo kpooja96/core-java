@@ -1,0 +1,5 @@
+package com.capgemini.Laptop.model;
+
+public class Laptop {
+
+}

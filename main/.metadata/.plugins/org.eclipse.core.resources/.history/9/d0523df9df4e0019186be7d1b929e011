@@ -1,0 +1,34 @@
+package com.capgemini.bankapp.model;
+
+public class BankAccount {
+
+	private long accountId;
+	private String accountHolderName;
+	private String accountType;
+	private double accountBalance;
+	
+
+	public BankAccount() {
+		super();
+	
+	}
+
+
+	public BankAccount(String accountHolderName, String accountType, double accountBalance) {
+		super();
+		this.accountHolderName = accountHolderName;
+		this.accountType = accountType;
+		this.accountBalance = accountBalance;
+	}
+
+
+	@Override
+	public String toString() {
+		return "BankAccount [accountId=" + accountId + ", accountHolderName=" + accountHolderName + ", accountType="
+				+ accountType + ", accountBalance=" + accountBalance + "]";
+	}
+
+
+
+
+}

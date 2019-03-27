@@ -1,0 +1,23 @@
+package com.capgemini.student.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import com.capgemini.student.model.Student;
+
+public class StudentTest {
+
+	private static Student neha; 
+	private static Student pratiksha; 
+	private static Student manasi;
+	
+	@Before
+	public void setUp() {
+		neha = new Student("neha",101,450);
+		pratiksha = new Student("pratiksha",102,400);
+		manasi = new Student("manasi",105,550);
+	}
+	
+}

@@ -1,0 +1,24 @@
+package com.capgemini.car.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import com.capgemini.car.model.Car;
+
+public class CarTest {
+
+	private Car BMW;
+	private Car Audi;
+	private Car Toyota;
+	
+	
+	@Before
+	public void setUp() {
+		BMW=new Car("BMW","aa",1996,4000000);
+		Audi=new Car("Audi","aa",1996,4000000);
+		Toyota=new Car("Toyota","aa",1996,4000000);
+	}
+
+}

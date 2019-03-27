@@ -1,0 +1,28 @@
+@Test
+public boolean isSmaller(Date d) {
+
+assertEquals(int.parseInt(previousDate(1) > int.parseInt(currentDate(1)));
+
+}
+
+
+@Test
+
+public int[] diff(Date d)
+{
+   DateFormat dformat=new DateFormat("dd/mm/yy");
+
+   Date firstDate=dformat.parse(04/09/18);
+     Date secondDate=dformat.parse(10/09/18);
+
+        assertEquals(diff,6);
+}
+
+\*
+public void currentDay()
+{
+    Date current = new Date();
+    System.out.println(current);
+    assertEquals("today:", current, new Date());
+}
+*\

@@ -1,0 +1,22 @@
+package com.capgemini.bankapp.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import com.capgemini.bankapp.model.BankAccount;
+
+public class SavingBankTest {
+
+	private SavingBankTest account;
+	
+	@Test
+	public void testSavingBankAccountobjectCreatedWithDefaultConstructor() {
+		
+		BankAccount account=new BankAccount();
+		assertNotNull(account);
+	}
+
+
+}

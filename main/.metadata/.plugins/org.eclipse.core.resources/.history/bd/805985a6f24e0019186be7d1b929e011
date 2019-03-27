@@ -1,0 +1,45 @@
+package com.capgemini.bankapp.dao.impl;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+
+import com.capgemini.bankapp.dao.BankAccountDao;
+import com.capgemini.bankapp.util.DbUtil;
+
+public class BankAccountDaoImpl implements BankAccountDao {
+
+	@Override
+	public double getbalance(long accountId) {
+		String query = "select account_balance from bankaccount where account-id =" +accountId;
+		
+		double balance=0;
+		try(Connection connection = DbUtil.getConnection();
+				PreparedStatement statement = connection.prepareStatement(query);
+				ResultSet result = statement.executeQuery()){
+			
+			balance = result.getDouble(1);
+		}
+		catch(SQLException e) {
+			e.printStackTrace();
+		}
+				
+		return balance;
+		
+		
+	}
+
+	@Override
+	public void updateBalance(long accountId, double newBalance) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public boolean deletebankAccount(long accountId) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}

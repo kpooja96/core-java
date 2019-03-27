@@ -1,0 +1,14 @@
+package com.capgemini.files.model;
+
+import java.io.File;
+
+public class FileExist1 {
+	public static void main(String[] args) {
+		
+	
+	
+	File file = new File("C:\\PoojaK\\js-assignments\\js.txt");
+	
+  
+}
+}

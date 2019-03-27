@@ -1,0 +1,16 @@
+package com.capgemini.files.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class FileExistTest {
+
+	@Test
+	public void testforFileExist() {
+		
+		FileExist1 fileExist =  new FileExist1() ;
+		assertEquals(true, fileExist.checkFileExist());
+	}
+
+}

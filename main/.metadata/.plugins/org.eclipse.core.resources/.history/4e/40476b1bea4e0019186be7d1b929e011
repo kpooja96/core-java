@@ -1,0 +1,5 @@
+package com.capgemini.bnkappdao;
+
+public interface BankAccountDao {
+
+}

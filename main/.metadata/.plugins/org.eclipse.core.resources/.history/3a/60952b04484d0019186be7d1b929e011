@@ -1,0 +1,30 @@
+package com.capgemini.bankapp.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import com.capgemini.bankapp.model.BankAccount;
+import com.capgemini.bankapp.model.SavingBankAccount;
+
+public class SavingBankTest {
+
+	private SavingBankAccount account;
+	
+	@Test(expected=LowBalanceException.class)
+	public void testSavingBankAccountobjectWithSavingAccount() {
+		
+		 account=new SavingBankAccount(101,"John Don",35000,true);
+		account.withdraw(50000);
+	}
+
+
+	
+	@Test(expected=LowBalanceException1.class)
+	public void testSavingBankAccountobjectWithNotSavingAccount() {
+		
+		 account=new SavingBankAccount(101,"John Don",35000,true);
+		account.withdraw(50000);
+	}
+}

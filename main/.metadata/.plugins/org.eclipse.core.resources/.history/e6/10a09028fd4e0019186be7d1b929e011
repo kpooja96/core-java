@@ -1,0 +1,29 @@
+package com.capgemini.files.test;
+
+import static org.junit.Assert.*;
+
+import java.io.File;
+import java.util.List;
+
+import org.junit.Test;
+
+import com.capgemini.files.model.FileExist1;
+
+public class GrepTest {
+
+	@Test
+	public void whenGrepWithSimpleString_thenCorrect() {
+		int expectedLineCount = 4;
+		File file = new File("test.txt");
+		List<Line> lines = get.grep("TEN", file).toLineList();
+
+		assertEquals(expectedLineCount, lines.size());
+	}
+	
+	
+	@Test
+	public void testforFileNotExist() {
+		FileExist1 fileExist = new FileExist1();
+		assertEquals(null, fileExist.checkFileExist());
+	}
+}

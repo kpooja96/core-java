@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MathApplicationTest" project="mockito_demo" tests="10" started="10" failures="0" errors="0" ignored="0">
+  <testsuite name="com.capgemini.demo.test.MathApplicationTest" time="0.187">
+    <testcase name="testPreformAdditionWithPositiveIntegers" classname="com.capgemini.demo.test.MathApplicationTest" time="0.172"/>
+    <testcase name="testPreformDivisionWithPositiveIntegers" classname="com.capgemini.demo.test.MathApplicationTest" time="0.0"/>
+    <testcase name="testPreformSubtractionWithPositiveIntegers" classname="com.capgemini.demo.test.MathApplicationTest" time="0.0"/>
+    <testcase name="testPreformMultiplicationWithNegativeIntegers" classname="com.capgemini.demo.test.MathApplicationTest" time="0.015"/>
+    <testcase name="testWithDivisionByZero" classname="com.capgemini.demo.test.MathApplicationTest" time="0.0"/>
+    <testcase name="testPreformMultiplicationWithPositiveIntegers" classname="com.capgemini.demo.test.MathApplicationTest" time="0.0"/>
+    <testcase name="testPreformAdditionWithNegativeIntegers" classname="com.capgemini.demo.test.MathApplicationTest" time="0.0"/>
+    <testcase name="testPreformDivisionWithNegativeIntegers" classname="com.capgemini.demo.test.MathApplicationTest" time="0.0"/>
+    <testcase name="testFindFactorialWithPositiveIntegers" classname="com.capgemini.demo.test.MathApplicationTest" time="0.0"/>
+    <testcase name="testPreformSubtractionWithNegativeIntegers" classname="com.capgemini.demo.test.MathApplicationTest" time="0.0"/>
+  </testsuite>
+</testrun>

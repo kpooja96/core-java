@@ -1,0 +1,12 @@
+package com.capgemini.files.client;
+
+import java.io.File;
+
+public class FileHandleDemo {
+
+	public static void main(String[] args) {
+		
+    File file=new File("C:\\PoojaK\\js-assignments");
+	}
+
+}

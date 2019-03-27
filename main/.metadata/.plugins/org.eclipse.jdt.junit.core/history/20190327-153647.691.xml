@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MathApplicationTest" project="mockito_demo" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.capgemini.demo.test.MathApplicationTest" time="0.216">
+    <testcase name="testPreformAdditionWithPositiveIntegers" classname="com.capgemini.demo.test.MathApplicationTest" time="0.216"/>
+    <testcase name="testWithDivisionByZero" classname="com.capgemini.demo.test.MathApplicationTest" time="0.0"/>
+    <testcase name="testFindFactorialWithPositiveIntegers" classname="com.capgemini.demo.test.MathApplicationTest" time="0.0"/>
+  </testsuite>
+</testrun>

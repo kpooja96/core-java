@@ -1,0 +1,10 @@
+package com.capgemini.files.model;
+
+public class LineCourt1 {
+
+	public static void main(String[] args) {
+		
+		
+		File file = new File("C:\\PoojaK\\js-assignments\\js.txt")
+	}
+}

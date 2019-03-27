@@ -1,0 +1,28 @@
+package com.capgemini.tax.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import com.capgemini.tax.model.TaxCalculator;
+
+public class TaxCalculatorTest {
+	
+	
+	@Before
+	public void setUp() {
+		
+	}
+	
+	
+	
+	
+
+	@Test
+	public void testCalci() {
+		TaxCalculator tax=new TaxCalculator();
+	assertEquals(expected, (actual),0.01);
+	}
+
+}

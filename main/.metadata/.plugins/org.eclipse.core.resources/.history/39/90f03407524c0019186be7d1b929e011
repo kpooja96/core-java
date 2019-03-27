@@ -1,0 +1,5 @@
+package com.capgemini.factorial.model;
+
+public class Factorial {
+
+}

@@ -1,0 +1,26 @@
+package com.capgemini.television.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Before;
+import org.junit.Test;
+
+import com.capgemini.car.model.Car;
+import com.capgemini.television.model.Television;
+
+public class TelevisionTest {
+
+	private static Television samsung;
+	private static Television onida;
+	private static Television micromax;
+	
+	
+	@Before
+	public void setUp() {
+		samsung=new Television("samsung","LED",true,450000);
+		onida=new Television("onida","LCD",true,65000);
+		micromax=new Television("micromax","LED",true,25000);
+		
+	
+}
+}

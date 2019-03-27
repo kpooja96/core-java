@@ -1,0 +1,5 @@
+package com.capgemini.cellphone.model;
+
+public class CellPhone {
+
+}

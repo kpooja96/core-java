@@ -1,0 +1,10 @@
+package com.capgemini.files.client;
+
+public class FileHandleDemo {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

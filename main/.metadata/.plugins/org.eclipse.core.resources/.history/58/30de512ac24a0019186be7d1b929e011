@@ -1,0 +1,5 @@
+package com.capgemini.television.model;
+
+public class Television {
+
+}

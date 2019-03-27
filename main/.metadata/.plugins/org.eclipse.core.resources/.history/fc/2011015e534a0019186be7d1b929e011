@@ -1,0 +1,27 @@
+package com.capgemini.car.model;
+
+public class Car {
+	
+	private String make;
+	private String model;
+	private int year;
+	private double price;
+	
+	
+	public Car() {
+		super();
+		
+	}
+
+
+	public Car(String make, String model, int year, double price) {
+		super();
+		this.make = make;
+		this.model = model;
+		this.year = year;
+		this.price = price;
+	}
+	
+	
+
+}

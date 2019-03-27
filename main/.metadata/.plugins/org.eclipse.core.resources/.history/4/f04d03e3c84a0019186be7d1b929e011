@@ -1,0 +1,15 @@
+package com.capgemini.school.model;
+
+public class School {
+	
+	private String name;
+	private String city;
+	private String cityDistrict;
+	private String greatSchoolRanking;
+	
+	
+	
+	
+	
+
+}

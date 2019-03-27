@@ -1,0 +1,6 @@
+package com.capgemini.bankapp.util;
+
+public class DbUtil {
+	
+
+}

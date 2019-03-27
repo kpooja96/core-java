@@ -1,0 +1,12 @@
+package com.capgemini.cellphone.model;
+
+public class CellPhone {
+	
+	private String company;
+	private String model;
+	private String description;
+	private String operatingSystem;
+	private double price;
+	
+
+}

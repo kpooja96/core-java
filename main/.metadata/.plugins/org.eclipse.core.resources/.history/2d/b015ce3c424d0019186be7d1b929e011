@@ -1,0 +1,10 @@
+package com.capgemini.files.model;
+
+public class FileExist1 {
+	
+	
+	File file = new file("C:\\PoojaK\\js-assignments\\js.txt");
+	System.out.println(file.exists());
+	System.out.println(file found);
+	
+}

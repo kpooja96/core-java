@@ -1,0 +1,12 @@
+1553495099428	Rename package 'com.cap'
+1553506514178	Rename resource 'dbCofig.property'
+1553506590528	Rename type 'Dbutil'
+1553506619487	Move compilation unit
+1553509911597	Move compilation unit
+1553509995484	Rename package 'com.capgemoni.bankapp.exception'
+1553510465244	Rename package 'com.capgemini.bnkappdao'
+1553510480759	Rename package 'com.capgemini.bnkapp.dao'
+1553657746892	Move compilation unit
+1553660033283	Delete element
+1553664786299	Rename resource 'log4j'
+1553664970647	Delete element

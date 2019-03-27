@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="MathApplicationTest.testPreformDivision2WithNegativeIntegers" project="mockito_demo" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testcase name="testPreformDivision2WithNegativeIntegers" classname="com.capgemini.demo.test.MathApplicationTest" time="0.125"/>
+</testrun>

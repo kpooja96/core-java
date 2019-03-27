@@ -1,0 +1,23 @@
+package com.capgemini.bankapp.model;
+
+public class ConnectionTest {
+	
+	public static void main(String[] args) {
+		
+		String dburl = "jdbc:mysql://localhost:3306/bankappdb";
+		String username = "root";
+		String password = "root";
+		
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		
+		try
+		{
+			Class.forName("com.mysql.cj.jdbc.Driver");
+		}
+		catch(ClassNotFoundException e) {
+			System.out.println("Failed to load Driver.class. Make sure that.class file is available");
+		}
+		
+	}
+
+}

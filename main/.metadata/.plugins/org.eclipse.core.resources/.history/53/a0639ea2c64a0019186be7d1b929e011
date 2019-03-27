@@ -1,0 +1,51 @@
+package com.capgemini.car.test;
+
+import static org.junit.Assert.*;
+
+import java.util.ArrayList;
+import java.util.HashSet;
+import java.util.Iterator;
+
+import org.junit.Before;
+import org.junit.Test;
+import com.capgemini.car.model.Car;
+
+public class CarTest {
+
+	private static Car BMW;
+	private static Car Audi;
+	private static Car Toyota;
+	
+	
+	@Before
+	public void setUp() {
+		BMW=new Car("BMW","aa",1996,4000000);
+		Audi=new Car("Audi","bb",1998,3600000);
+		Toyota=new Car("Toyota","cc",1999,5600000);
+	}
+	
+	
+	@Test
+	public void testCar() {
+		ArrayList<Car> cr = new ArrayList<>();
+		cr.add(BMW);
+		cr.add(Audi);
+		cr.add(Toyota);
+		
+		Iterator<Car> iterator = cr.iterator();
+		assertEquals(BMW, iterator.next());
+		assertEquals(Audi, iterator.next());
+		assertEquals(Toyota, iterator.next());
+	}
+
+	
+	@Test
+	 public void testCarDuplicates() {
+		HashSet <Car> c = new HashSet<>(); 
+		c.add(BMW);
+		c.add(Audi);
+		c.add(Toyota);
+		
+		assertEquals(3, c.size());
+	}
+}

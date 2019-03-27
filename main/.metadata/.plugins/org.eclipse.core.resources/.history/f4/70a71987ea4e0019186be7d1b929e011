@@ -1,0 +1,9 @@
+package com.capgemini.bnkapp.dao;
+
+public interface BankAccountDao {
+	
+	public  double getbalance(long accountId);
+	public void updateBalance(long accountId,double newBalance);
+	public boolean deletebankAccount(long accountId);
+
+}

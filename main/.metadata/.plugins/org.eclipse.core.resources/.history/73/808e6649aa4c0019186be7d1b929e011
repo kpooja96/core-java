@@ -1,0 +1,12 @@
+package com.capgemini.files.client;
+
+import com.capgemini.files.model.BankAccount;
+
+public class SerializationDemo {
+	public static void main(String[] args) {
+		   
+		DebitCard debitCard = new DebitCard(45412121111111L,234,11,2021);
+		BankAccount account = new BankAccount(101,"John Don","SAVING",34000,debitCard);
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.capgemini.files.client;
+
+public class DebitCard {
+	
+	private long cardnumber;
+	private int cvv;
+	private int expiryMonth;
+	private int expiryYear;
+
+}

@@ -1,0 +1,15 @@
+package com.capgemini.television.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import com.capgemini.television.model.Television;
+
+public class TelevisionTest {
+
+	private static Television samsung;
+	private static Television onida;
+	private static Television micromax;
+	
+}

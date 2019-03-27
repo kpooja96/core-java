@@ -1,0 +1,16 @@
+package com.capgemini.demo;
+
+import com.capgemini.demo.service.CalculatorService;
+
+public class MathApplication {
+	
+	private CalculatorService service;
+
+	public MathApplication(CalculatorService service) {
+	
+		this.service = service;
+	}
+	
+	
+
+}

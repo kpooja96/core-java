@@ -1,0 +1,8 @@
+package com.capgemini.files.model;
+
+public class Employee {
+
+	private int empId;
+	private String name;
+	private double salary;
+}

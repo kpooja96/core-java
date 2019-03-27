@@ -1,0 +1,19 @@
+package com.capgemini.student.model;
+
+public class Student {
+	
+	private String name;
+
+	public Student() {
+		super();
+	
+	}
+
+	public Student(String name) {
+		super();
+		this.name = name;
+	}
+	
+	
+
+}
